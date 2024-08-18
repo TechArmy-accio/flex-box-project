@@ -30,6 +30,8 @@ Grey dark 3: #999 */
     --grey-dark-1: #333;
     --grey-dark-2: #777;
     --grey-dark-3: #999;
+
+    --shadow-dark: 0 2rem 6rem rgba(75, 198, 44, 0.6);;
 }
 /* root, html, * */
 
@@ -43,7 +45,8 @@ Grey dark 3: #999 */
 body{
     font-family: 'open sans', cursive;
     font-size: 62.5%; /* 1rem = 10px */
-    /* background-color: var(--primary); */
+    background-color: var(--primary);
+    height: 100vh;
 }
 
 
